@@ -1,0 +1,50 @@
+/* toast.wxss */
+
+/* mask 背景  */
+
+.toast_mask {
+  /* opacity: 0.5; */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/*toast 盒子*/
+
+.toast_content_box {
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 999;
+  margin-bottom: 300rpx;
+}
+
+/*toast 内容*/
+
+.toast_content {
+  padding: 12rpx 30rpx;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 6rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+
+/*toast 内容文字*/
+
+.toast_content_text {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}

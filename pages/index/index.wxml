@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<include src="../../component/toast/toast.wxml" />
+<view class="container">
+  <view class="userinfo">
+    <button  bindtap="onToastShow">弹出toast</button>
+  </view>
+</view>

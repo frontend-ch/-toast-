@@ -1,0 +1,12 @@
+<!--toast.wxml-->
+
+<!--mask 背景-->
+<view class="toast_mask" wx:if="{{isShowMask}}"></view>
+<!--以下为toast显示的内容-->
+<cover-view class="toast_content_box" wx:if="{{isShowToast}}">
+  <cover-view class="toast_content" wx:if="{{isShowToast}}">
+    <cover-view class="toast_content_text">
+      {{toastText}}
+    </cover-view>
+  </cover-view>
+</cover-view>
